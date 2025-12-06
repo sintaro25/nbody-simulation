@@ -1,12 +1,10 @@
-earth_distance = 1.496e11 # Среднее расстояние от Земли до Солнца
-earth_velocity = 29780   # Средняя орбитальная скорость Земли
-
-
-mars_distance = 2.279e11
-mars_velocity = 24070
-
-venus_distance = 1.082e11
-venus_velocity = 35020
-
-mercury_distance = 0.579e11
-mercury_velocity = 47360
+planets = {
+    "mercury": {"distance": 57.9e9,  "velocity": 47.36e3},
+    "venus":   {"distance":108.2e9,  "velocity": 35.02e3},
+    "earth":   {"distance":149.6e9,  "velocity": 29.78e3},
+    "mars":    {"distance":227.9e9,  "velocity": 24.07e3},
+    "jupiter": {"distance":778.5e9,  "velocity": 13.07e3},
+    "saturn":  {"distance":1.433e12, "velocity": 9.68e3},
+    "uranus":  {"distance":2.872e12, "velocity": 6.80e3},
+    "neptune": {"distance":4.495e12, "velocity": 5.43e3}
+}
